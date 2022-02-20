@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登録完了</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+    <div id="notification" class="notification" style="position: fixed; z-index: 1; width: 100%;">
+      <button id="delete" class="delete"></button>
+      ※これは詐欺体験のためのページであり、請求内容は架空のものです。
+    </div> -->
+    </div>
+    <section class="hero is-warning">
+  <div class="hero-body">
+    <div id="app" class="container">
+    <p class="title is-size-2" style="text-align:center"><font color="red">
+      ご登録ありがとうございます！
+    </font></p>
+    <p style="text-align:center">お客様の会員登録が正常に完了いたしました。</p>
+    <p style="text-align:center"><font size="7" color="red">登録完了</font></p>
+    <p style="text-align:center">支払い期限は<span class="has-text-weight-bold">2日以内</span>です。至急下記口座までお振込みください。</p>
+    <p style="text-align:center"><font size="6" color="red"><span class="has-text-weight-bold">55,000円</span></font></p>
+    <p style="text-align:center">お客様ID:739439</p>
+    <p style="text-align:center">お支払いが確認できない場合は<span class="has-text-weight-bold"><font color="red">法的処置</font></span>をとらせていたできますのでご注意ください。</p>
+    <div class="notification is-danger">
+        <p class="is-size-3 has-text-centered">
+          残り
+          <span id="hour">48</span>時間
+          <span id="min">0</span>分
+          <span id="sec">0</span>秒
+        </p>
+        <progress class="progress"></progress>
+      </div>
+      <p style="text-align: center">※24時間経過後※</p>
+      <p style="text-align: center">→誤作動登録の場合でもご精算頂きます。</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 style="text-align:center" class="title">お客様情報</h2>
+    <table class="table is-striped is-fullwidth">
+      <tr>
+        <td>登録日時</td>
+        <td><script type="text/javascript">
+<!--
+
+var weeks = new Array('日','月','火','水','木','金','土');
+
+var now = new Date();
+
+var year = now.getYear(); // 年
+var month = now.getMonth() + 1; // 月
+var day = now.getDate(); // 日
+var week = weeks[ now.getDay() ]; // 曜日
+var hour = now.getHours(); // 時
+var min = now.getMinutes(); // 分
+var sec = now.getSeconds(); // 秒
+
+if(year < 2000) { year += 1900; }
+
+// 数値が1桁の場合、頭に0を付けて2桁で表示する指定
+if(month < 10) { month = "0" + month; }
+if(day < 10) { day = "0" + day; }
+if(hour < 10) { hour = "0" + hour; }
+if(min < 10) { min = "0" + min; }
+if(sec < 10) { sec = "0" + sec; }
+
+// 表示開始
+document.write('現在：<b>' + year + '年' + month + '月' + day + '日（' + week + '）');
+document.write(hour + '時' + min + '分' + sec + '秒</b>');
+// 表示終了
+
+// -->
+</script></td>
+      </tr>
+      <tr>
+        <td>端末情報</td>
+        <td><script>
+        document.write("<div>ブラウザのプラットフォームは「" + navigator.platform + "」</div>");
+        </script></td>
+      </tr>
+    </table>
+        <h2 class="title"style="text-align:center">お問い合わせ</h2>
+        <table class="table is-striped is-fullwidth" align="center">
+          <tr>
+            <td>電話番号</td><td>000-000-000</td>
+          </tr>
+          <tr>
+            <td>メールアドレス</td><td>korehafeikudesu@xxxxx.com</td>
+          </tr>
+        </table>
+        <h2 class="title"style="text-align:center">お振込み先</h2>
+        <table class="table is-striped is-fullwidth" align="center">
+          <tr>
+            <td>銀行名(銀行コード)</td><td>Twitter銀行(0000)</td>
+          </tr>
+          <tr>
+            <td>支店名(支店名コード)</td><td>あいうえお店(000)</td>
+          </tr>
+          <tr>
+            <td>種別</td><td>詐欺預金</td>
+          </tr>
+          <tr>
+            <td>口座番号</td><td>12345678</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <p style="margin:20px;"><font size="5">▼質問▼</font></p>
+    <div class="field">
+  <label class="label">名前</label>
+  <div class="control">
+    <input class="input" type="text" placeholder="フルネームで">
+  </div>
+</div>
+
+<div class="field">
+  <label class="label">Eメール</label>
+  <div class="control has-icons-left has-icons-right">
+    <input class="input is-danger" type="email" placeholder="Email input" value="@">
+    <span class="icon is-small is-left">
+      <i class="fas fa-envelope"></i>
+    </span>
+    <span class="icon is-small is-right">
+      <i class="fas fa-exclamation-triangle"></i>
+    </span>
+  </div>
+  <p class="help is-danger">このメールは無効です</p>
+</div>
+
+<div class="field">
+  <label class="label">質問内容</label>
+  <div class="control">
+    <textarea class="textarea" placeholder="例：振り込みのやり方がわかりません"></textarea>
+  </div>
+</div>
+
+<div class="field">
+  <div class="control">
+    <label class="checkbox">
+      <input type="checkbox">
+      I agree to the <a href="#">terms and conditions</a>
+    </label>
+  </div>
+</div>
+
+<div class="field">
+  <div class="control">
+    <label class="radio">
+      <input type="radio" name="question">
+      Yes
+    </label>
+    <label class="radio">
+      <input type="radio" name="question">
+      No
+    </label>
+  </div>
+</div>
+
+<div class="field is-grouped">
+  <div class="control">
+    <button onclick="clicked()" class="button is-link">送信</button>
+    <script>
+      function clicked(){
+        alert("迷惑メールが沢山来るようになりました")
+      }
+    </script>
+  </div>
+  <div class="control">
+    <button class="button is-link is-light">キャンセル</button>
+  </div>
+</div>
+<hr>
+<p>営業時間／平日 09:00～19:00　|　土日祝日 12:00～18:00</p>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="invoice.js"></script>
+  </body>
+</html>
